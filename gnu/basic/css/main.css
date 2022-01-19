@@ -1,0 +1,65 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.container {display: flex;width: 1200px;margin: 0 auto;padding: 0 15px;}
+figure {margin: 0;padding: 0;}
+address {font-style: normal;}
+
+
+.wrap {min-width: 1900px;}
+
+
+.hd_top {font-size: 13px;font-weight: 300;line-height: 2.3;border-bottom: 1px solid #ced4da;}
+.hd_top .right {margin-left: auto;}
+
+.hd {line-height: 130px;border-bottom: 1px solid #ced4da;}
+.hd h1 img {height: 100px;}
+.hd .gnb {margin-left: auto;}
+.hd .gnb>ul {display: flex;gap: 50px;font-size: 17px;}
+
+
+.main {position: relative;}
+.main .m_slide figure {height: 500px;}
+.main .m_slide .itm01 {background: url(../img/main_visual01.jpg)no-repeat center center/cover;}
+.main .m_slide .itm02 {background: url(../img/main_visual02.jpg)no-repeat center center/cover;}
+.main .m_slide .itm03 {background: url(../img/main_visual03.jpg)no-repeat center center/cover;}
+
+.main .slogan {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 1200px;color: #f8f9fa;text-align: center;}
+.main .slogan h2 {font-size: 60px;margin-bottom: 30px;text-shadow: 0 0 4px rgba(0,0,0,0.6);}
+.main .slogan p {font-size: 17px;text-shadow: 0 0 4px rgba(0,0,0,0.6);}
+
+
+
+.subpage {line-height: 400px;height: 400px;background: url(../img/main_visual01.jpg) center center/cover;}
+.subpage h2 {text-align: center;font-size: 40px;font-weight: 900;color: #fff;}
+
+.subdetail {padding: 100px 0;min-height: 500px;}
+
+
+
+
+
+
+.customer {padding: 80px 0;}
+.customer .container {width: 1230px;padding: 0 0;}
+.customer .container>div {flex: 1;padding: 0 30px;}
+.customer .container>div~div {border-left: 1px solid #ced4da;}
+.customer h3 {font-size: 20px;font-weight: 300;border-bottom: 1px solid #ced4da;margin-bottom: 20px;line-height: 40px;}
+.customer h3 a {display: block;float: right;color: #ced4da;font-size: 10px;}
+
+.customer .rt {position: relative;text-align: right;}
+.customer .rt strong {display: block;padding-top: 80px;font-size: 35px;font-weight: 700;margin-bottom: 20px;}
+.customer .rt a {display: block;}
+.customer .rt i {position: absolute;top: 20px;right: 30px;font-size: 30px;padding: 10px;background: #ced4da;border-radius: 50%;line-height: 1;width: 50px;height: 50px;color: #fff;text-align: center;}
+.customer .lf .basic_li {line-height: 40px;font-size: 15px;border-bottom: 1px solid #eee;}
+.customer .lf .basic_li span {float: right;}
+
+
+.footer {font-size: 13px;padding: 30px 0;border-top: 1px solid #ced4da;text-align: center;background: #f8f9fa;}
+.footer ul {width: 600px;margin: 0 auto;}
+.footer ul li {display: inline-block;}
+
+
+
+
+
+
